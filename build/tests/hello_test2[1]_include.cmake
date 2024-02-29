@@ -1,5 +1,0 @@
-if(EXISTS "/home/zea/Desktop/sem4/Project management/lab1(continuous integration)/build/tests/hello_test2[1]_tests.cmake")
-  include("/home/zea/Desktop/sem4/Project management/lab1(continuous integration)/build/tests/hello_test2[1]_tests.cmake")
-else()
-  add_test(hello_test2_NOT_BUILT hello_test2_NOT_BUILT)
-endif()
