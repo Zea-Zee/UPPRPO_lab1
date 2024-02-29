@@ -8,7 +8,7 @@ TEST(SUM, int_double_TEST) {
     EXPECT_EQ(sum(0.6, 0.6), 1.2);
     EXPECT_EQ(sum(1, 1), 2);
 }
-TEST(SUM, int_double_TEST) {
+TEST(SUM, int_double_TEST_with_wrong_answer) {
     EXPECT_EQ(sum(0.6, 1), 1.2);
     EXPECT_EQ(sum(1, 1), 2);
 }
