@@ -22,4 +22,5 @@ target_link_libraries(
 )
 
 include(GoogleTest)
+add_test(TARGET hello_test2)
 gtest_discover_tests(hello_test2)
